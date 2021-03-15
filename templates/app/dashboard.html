@@ -1,0 +1,32 @@
+﻿{% extends "base.html" %}
+
+{% block title %}
+	Dashboard
+{% endblock %}
+
+{% block content %}
+
+	{% if messages %}
+
+	    {% for message in messages %}
+
+<!--Panel-->
+<div class="card border-success mb-3">
+    <div class="card-header text-danger">
+        <p class="card-title">{{ message }}</p>
+    </div>
+</div>
+<!--/.Panel-->
+	    {% endfor %}
+
+	{% endif %}
+
+<meta charset="utf-8">
+<h6 class="text-right">Welcome {{ request.user }}</h6>
+<title>Privet Bank - SFTP </title>
+<p class="text-left mt-5">SFTP user: {{ user.profile.bio }}</p>
+<p class="text-left"> Data table </p>
+<p class="text-left">Joined: {{ user.profile.timestamp }}</p>
+
+{% endblock content %}
+

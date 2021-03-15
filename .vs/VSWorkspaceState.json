@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\import_export\\locale\\ar\\LC_MESSAGES",
+    "\\import_export\\templates\\admin\\import_export",
+    "\\src\\django-extensions",
+    "\\static\\css",
+    "\\static\\font",
+    "\\users",
+    "\\website"
+  ],
+  "SelectedNode": "\\website\\settings.py",
+  "PreviewInSolutionExplorer": false
+}
